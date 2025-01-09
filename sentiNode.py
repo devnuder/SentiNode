@@ -8,6 +8,7 @@ from solana.rpc.commitment import Confirmed
 from solana.rpc.types import TxOpts
 import json
 
+
 class TinaAgent:
     def __init__(self, rpc_url: str, program_id: str):
         self.client = AsyncClient(rpc_url)
